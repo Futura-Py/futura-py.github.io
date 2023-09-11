@@ -1,0 +1,71 @@
+body {
+    color: white;
+    background-color: #222222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titleicon {
+    margin: auto;
+    display: block;
+    padding-top: 4em;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 2em;
+    font-size: 40px;
+    color: black;
+}
+
+.banner {
+    position: relative;
+    background-image: url(./img/bg.png);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.containerelement {
+    flex: 50%;
+}
+
+.elementheading {
+    padding-left: 1em;
+}
+
+.elementparagraph {
+    padding-left: 2.5em;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+.memberimage {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.membername {
+    padding-left: 1em;
+}
+
+.member {
+    padding-left: 2.4em;
+    padding-top: 1.5em;
+    display: flex;
+}
+
+.memberlink {
+    text-decoration: none;
+    color: white;
+}
