@@ -4,6 +4,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+*{
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
 .titleicon {
     margin: auto;
     display: block;
@@ -15,11 +21,20 @@ body {
     padding-bottom: 2em;
     font-size: 40px;
     color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+.link {
+    text-decoration: none;
+    color: orange;
 }
 
 .banner {
     position: relative;
-    background-image: url(./img/bg.png);
+    background-image: url(../img/bg.png);
+    border-radius: 10px;
 }
 
 h1 {
