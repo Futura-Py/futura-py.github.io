@@ -51,6 +51,7 @@ body {
     flex-shrink: 0;
     width: 3vw;
     height: 3vh;
+    padding-right: .5em;
 }
 .sticky-header .navText a {
     display: inline;
