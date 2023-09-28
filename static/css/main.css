@@ -30,6 +30,9 @@ body {
     position: relative;
     background-image: url(../img/bg.png);
     border-radius: 10px;
+    max-width: 90%;
+    margin: auto;
+    
 }
 
 .sticky-header {
