@@ -3,34 +3,51 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/x-icon" href="./img/futura.png">
-        <title>Futura Software</title>
+        <link rel="stylesheet" href="./static/css/main.css">
+        <link rel="icon" type="image/x-icon" href="./static/img/futura.png">
+        <script src="./static/scripts/landing.js"></script>
+        <title>Futura Software - About Us</title>
     </head>
 
     <body>
-        <script type="module" src="scripts.js"></script>
-
+        <div class="sticky-header">
+            <div class="logo", align="left">
+                <a href="./index.html">
+                    <svg class="logo">
+                        <image href="./static/img/logo.svg" width=3vw height=3vh>
+                        </image>
+                    </svg>
+                </a>
+            </div>
+            <div class="navText">
+                <a href="./index.html", class="link">
+                    About Us
+                </a>
+                <a href="./static/pages/projects.html", class="link">
+                    Projects
+                </a>
+            </div>
+        </div>
         <div class="banner">
             <div>
-                <img src="./img/futura.png" class="titleicon" height="300"></img>
+                <img src="./static/img/futura.png" class="titleicon"></img>
                 <h1 class="title">Futura Software</h1> 
             </div>
         </div>
-        
-        <div class="container">
-            <div class="containerelement">
-                <h1 class="elementheading">About Us</h1>
-                <p class="elementparagraph">We are a group of young aspiring Python Developers who create GUI applications with the tkinter framework</p>
-                <p class="elementparagraph">We use rdbendes <a href="https://github.com/rdbende/Sun-Valley-ttk-theme" style="text-decoration: none;">Sun Valley ttk theme</a> to make our apps look beautiful and native.</p>
+        <!-- Make the divs into modular blocks -->
+        <div> 
+            <div class="container">
+                <div class="containerelement">
+                    <h1 class="elementheading">About Us</h1>
+                    <p class="elementparagraph">We are a group of young aspiring Python Developers who create GUI applications with the tkinter framework</p>
+                    <p class="elementparagraph">We use rdbendes <a href="https://github.com/rdbende/Sun-Valley-ttk-theme" class="link">Sun Valley ttk theme</a> to make our apps look beautiful and native.</p>
 
-            </div>
+                </div>
 
-            <div class="containerelement" id="members">
-                
+                <div class="containerelement", id="members">
+                    <h1 class="elementheading">Members:</h1>
+                </div>
             </div>
         </div>
-
-
     </body>
 </html>
